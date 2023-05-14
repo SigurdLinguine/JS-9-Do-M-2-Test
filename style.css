@@ -1,0 +1,92 @@
+    *{
+        margin: 0px;
+        padding: 0px;
+        background-color: lightblue;
+    }
+
+    .header{
+        font-size: 40px;
+        font-weight: bold;
+        color: blue;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .underheader{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-weight: bold;
+        color: blue;
+        margin: 20px;
+        border: 0px solid;
+    }
+    #underheader{
+        width: 270px;
+    }
+
+    .js{
+        display: flex;
+        justify-content: center ;
+        align-items: center;
+    }
+
+    .textbox{
+        display: flex;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-left: 1px;
+        padding-right: 1px;
+        text-align: left;
+    }
+
+    #text{
+        border: 3px solid;
+        padding: 8px;
+        border-color: white;
+    }
+
+    .checkbox{
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
+    #button{
+        border: 3px solid;
+        padding: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-color: white;
+    }
+    #button:hover{
+        cursor: pointer;
+    }
+
+    .luckybox{
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
+    #luckybutton{
+        border: 3px solid;
+        padding: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-color: white;
+    }
+    #luckybutton{
+        cursor: pointer;
+    }
+
+    .gato{
+        position: relative;
+        top: 60px;
+        left: 400px;
+        margin: 20px;
+    }
